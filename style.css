@@ -144,18 +144,20 @@ nav , .hero{
 
 .secImg{
     position: relative;
+    width: 500px;
+    max-width: 100%;
 }
 .secImg img{
-    width: 30vw;
+    width: 100%;
     position: relative;
     z-index: 10;
 }
 
 .secImg video{
     position: absolute;
-    width: 24vw;
-    left: 34px;
-    top: 37px;
+    width: 75%;
+    left: 13%;
+    top: 21%;
 }
 
 .first > div :first-child{
