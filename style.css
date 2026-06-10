@@ -76,7 +76,7 @@ nav img{
 }
 
 .separation{
-    height: 7px;
+    height: 2px;
     background-color: rgb(54, 52, 52);
 }
 
@@ -139,6 +139,7 @@ nav , .hero{
     margin: auto;
     color: white;
     align-items: center;
+    margin-top: 15px;
 }
 
 .secImg{
