@@ -13,7 +13,7 @@ body{
     height: 80vh;
     position: relative;
     background-position: center center;
-    background-size: max(1200px,100vw);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -148,7 +148,7 @@ nav , .hero{
     max-width: 100%;
 }
 .secImg img{
-    width: 100%;
+    width: 90%;
     position: relative;
     z-index: 10;
 }
@@ -156,13 +156,14 @@ nav , .hero{
 .secImg video{
     position: absolute;
     width: 75%;
-    left: 13%;
-    top: 21%;
+    left: 11%;
+    top: 23%;
 }
 
 .first > div :first-child{
     font-size: 35px;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 
 .first > div :nth-child(2){
@@ -172,6 +173,36 @@ nav , .hero{
 .first > div{
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
+}
+
+@media screen and (max-width: 1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+
+    .hero> :nth-child(1){
+        font-size: 28px;
+    }
+    .hero> :nth-child(2){
+        font-size: 18px;
+    }
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .hero-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .footer-items{
+        align-items: center;
+    }
 }
 
 .faq{
@@ -213,9 +244,10 @@ nav , .hero{
 
 footer{
     color: white;
-    max-width: 60vw;
+    max-width: 90vw;
     margin: auto;
     padding: 14px;
+    
 }
 
 .footer-items{
@@ -232,4 +264,15 @@ footer{
 
 footer > div{
     padding: 14px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    
+    
 }
