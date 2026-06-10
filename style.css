@@ -172,6 +172,34 @@ nav , .hero{
     flex-direction: column;
 }
 
+.faq{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 34px;
+}
 
+.faq-box{
+    background-color: #393737;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    max-width: 60vw;
+    margin: 24px auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq-box:hover{
+    background-color: #746969;
+}
+
+.faq-box img{
+    filter: invert(1);
+}
 
 
